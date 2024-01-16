@@ -1,0 +1,401 @@
+{
+  "tasks": [
+    {
+      "title": "test night 3",
+      "description": "5 am testing on date",
+      "createdBy": 5,
+      "selectedAssignment": [
+        1
+      ],
+      "selectedPrio": "high",
+      "dueDate": "1/20/2024",
+      "progress": false,
+      "id": 14
+    },
+    {
+      "title": "BUG fREE TASk?",
+      "description": "6 am testing",
+      "createdBy": 5,
+      "selectedAssignment": [
+        5
+      ],
+      "selectedPrio": "medium",
+      "dueDate": "1/12/2024",
+      "progress": true,
+      "id": 15,
+      "missedDue": true
+    },
+    {
+      "title": "6:30",
+      "description": "okie god ",
+      "createdBy": 5,
+      "selectedAssignment": [
+        5
+      ],
+      "selectedPrio": "medium",
+      "dueDate": "1/13/2024",
+      "progress": true,
+      "id": 32,
+      "missedDue": true
+    },
+    {
+      "title": "keyboard?",
+      "description": "only keyboard",
+      "createdBy": 5,
+      "selectedAssignment": [
+        6
+      ],
+      "selectedPrio": "low",
+      "dueDate": "1/15/2024",
+      "progress": false,
+      "id": 33
+    },
+    {
+      "title": "quick tesst",
+      "description": "toaster test",
+      "createdBy": 5,
+      "selectedAssignment": [
+        5
+      ],
+      "selectedPrio": "high",
+      "dueDate": "1/13/2024",
+      "progress": true,
+      "id": 34,
+      "missedDue": true
+    },
+    {
+      "title": "last ",
+      "description": "try",
+      "createdBy": 5,
+      "selectedAssignment": [
+        4
+      ],
+      "selectedPrio": "high",
+      "dueDate": "1/17/2024",
+      "progress": false,
+      "id": 36
+    },
+    {
+      "title": "8 am testing",
+      "description": "nyahhaha",
+      "createdBy": 5,
+      "selectedAssignment": [
+        6
+      ],
+      "selectedPrio": "high",
+      "dueDate": "1/20/2024",
+      "progress": false,
+      "id": 38
+    },
+    {
+      "title": "8 am testing",
+      "description": "nyahhaha",
+      "createdBy": 5,
+      "selectedAssignment": [
+        5
+      ],
+      "selectedPrio": "high",
+      "dueDate": "1/20/2024",
+      "progress": true,
+      "id": 39,
+      "missedDue": false
+    },
+    {
+      "title": "test ",
+      "description": "utton",
+      "createdBy": 5,
+      "selectedAssignment": [
+        5
+      ],
+      "selectedPrio": "high",
+      "dueDate": "1/19/2024",
+      "progress": true,
+      "id": 42,
+      "missedDue": false
+    },
+    {
+      "title": "Task set by ghina",
+      "description": "love yourself",
+      "createdBy": 7,
+      "selectedAssignment": [
+        1
+      ],
+      "selectedPrio": "high",
+      "dueDate": "1/17/2024",
+      "progress": false,
+      "id": 43
+    },
+    {
+      "title": "9 pm",
+      "description": "testing for dupes",
+      "createdBy": 5,
+      "selectedAssignment": [
+        5
+      ],
+      "selectedPrio": "low",
+      "dueDate": "1/13/2024",
+      "progress": true,
+      "id": 44,
+      "missedDue": true
+    },
+    {
+      "title": "9:30 pm testing",
+      "description": "testing for dupes again",
+      "createdBy": 5,
+      "selectedAssignment": [
+        5
+      ],
+      "selectedPrio": "high",
+      "dueDate": "1/15/2024",
+      "progress": true,
+      "id": 45,
+      "missedDue": false
+    },
+    {
+      "title": "9:30 pm testing",
+      "description": "testing for dupes again",
+      "createdBy": 5,
+      "selectedAssignment": [
+        7
+      ],
+      "selectedPrio": "high",
+      "dueDate": "1/15/2024",
+      "progress": true,
+      "id": 41,
+      "missedDue": false
+    },
+    {
+      "title": "test 1",
+      "description": "how will this be v iewed?",
+      "createdBy": 5,
+      "selectedAssignment": [
+        5
+      ],
+      "selectedPrio": "high",
+      "dueDate": "1/11/2024",
+      "progress": true,
+      "id": 554
+    },
+    {
+      "title": "test 1",
+      "description": "how will this be v iewed?",
+      "createdBy": 5,
+      "selectedAssignment": [
+        7
+      ],
+      "selectedPrio": "high",
+      "dueDate": "1/11/2024",
+      "progress": true,
+      "id": 555
+    },
+    {
+      "title": "2 am",
+      "description": "testing tesitng",
+      "createdBy": 6,
+      "selectedAssignment": [
+        5
+      ],
+      "selectedPrio": "low",
+      "dueDate": "1/14/2024",
+      "progress": false,
+      "id": 47
+    },
+    {
+      "title": "test 1pm",
+      "description": "okie updated how creating new tasks works",
+      "createdBy": 1,
+      "selectedAssignment": [
+        5
+      ],
+      "selectedPrio": "medium",
+      "dueDate": "2/1/2024",
+      "progress": true,
+      "id": 48,
+      "missedDue": false
+    },
+    {
+      "title": "test 1pm",
+      "description": "okie updated how creating new tasks works",
+      "createdBy": 1,
+      "selectedAssignment": [
+        1
+      ],
+      "selectedPrio": "medium",
+      "dueDate": "2/1/2024",
+      "progress": false,
+      "id": 49
+    },
+    {
+      "title": "okay",
+      "description": "1234",
+      "createdBy": 5,
+      "selectedAssignment": [
+        5
+      ],
+      "selectedPrio": "medium",
+      "dueDate": "1/1/2024",
+      "progress": true,
+      "id": 50,
+      "missedDue": true
+    },
+    {
+      "title": "Now ",
+      "description": "do t",
+      "createdBy": 5,
+      "selectedAssignment": [
+        5
+      ],
+      "selectedPrio": "high",
+      "dueDate": "1/1/2024",
+      "progress": true,
+      "id": 51,
+      "missedDue": true
+    },
+    {
+      "title": "Last Try",
+      "description": "Please be as expected",
+      "createdBy": 5,
+      "selectedAssignment": [
+        1
+      ],
+      "selectedPrio": "low",
+      "dueDate": "1/29/2024",
+      "progress": false,
+      "id": 556
+    },
+    {
+      "title": "Last Try",
+      "description": "Please be as expected",
+      "createdBy": 5,
+      "selectedAssignment": [
+        8
+      ],
+      "selectedPrio": "low",
+      "dueDate": "1/29/2024",
+      "progress": false,
+      "id": 557
+    },
+    {
+      "title": "abo ljawaber",
+      "description": "kill all nice people",
+      "createdBy": 10,
+      "selectedAssignment": [
+        10
+      ],
+      "selectedPrio": "medium",
+      "dueDate": "1/14/2024",
+      "progress": false,
+      "id": 560
+    }
+  ],
+  "users": [
+    {
+      "name": "Ghina",
+      "surname": "kanaan",
+      "email": "hasan@gmail.com",
+      "password": "2132141",
+      "selectedDay": "10",
+      "selectedMonth": "Jul",
+      "position": "Developer",
+      "id": 1
+    },
+    {
+      "name": "Hasan",
+      "surname": "Kanaan",
+      "email": "registration@gmail.com",
+      "password": "12345678",
+      "selectedDay": "3",
+      "selectedMonth": "Dec",
+      "position": "Developer",
+      "id": 3
+    },
+    {
+      "name": "Wael",
+      "surname": "Dassouki",
+      "email": "wael@gmail.com",
+      "password": "12345678",
+      "selectedDay": "13",
+      "selectedMonth": "Feb",
+      "position": "Assistant",
+      "id": 4
+    },
+    {
+      "name": "Rawan",
+      "surname": "Kanaan",
+      "email": "rawan@gmail.com",
+      "password": "12345678",
+      "selectedDay": "22",
+      "selectedMonth": "Aug",
+      "position": "Manager",
+      "id": 5
+    },
+    {
+      "name": "Rawad",
+      "surname": "Jaber",
+      "email": "roro@gmail.com",
+      "password": "iloveloba",
+      "selectedDay": "20",
+      "selectedMonth": "Jan",
+      "position": "Developer Team Leader",
+      "id": 6
+    },
+    {
+      "name": "Ghina",
+      "surname": "Kanaan",
+      "email": "ghina.m.kenaan@gmail.com",
+      "password": "12345678",
+      "selectedDay": "14",
+      "selectedMonth": "Feb",
+      "position": "Manager",
+      "id": 7
+    },
+    {
+      "name": "Hasan",
+      "surname": "Kanaan",
+      "email": "new@gmail.com",
+      "password": "iloveconduit69",
+      "selectedDay": "26",
+      "selectedMonth": "Jun",
+      "position": "Manager",
+      "id": 8
+    },
+    {
+      "name": "Kamal",
+      "surname": "Hmede",
+      "email": "koko@gmail.com",
+      "password": "neekozoemid",
+      "selectedDay": "14",
+      "selectedMonth": "Jun",
+      "position": "Developer",
+      "id": 9
+    },
+    {
+      "name": "Mohammad",
+      "surname": "Jaber",
+      "email": "jaboura@gmail.com",
+      "password": "Ilover69",
+      "selectedDay": "1",
+      "selectedMonth": "Jan",
+      "position": "Manager",
+      "id": 10
+    }
+  ],
+  "positions": [
+    {
+      "title": "Assistant",
+      "id": 1
+    },
+    {
+      "title": "Developer",
+      "id": 2
+    },
+    {
+      "title": "Developer Team Leader",
+      "id": 3
+    },
+    {
+      "title": "Manager",
+      "id": 4
+    }
+  ]
+}

@@ -1,13 +1,590 @@
-body {
+:root {
+  --primary: #bd8480;
+  --secondary: #2b3452;
+  --third: #deb887;
+}
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: antiquewhite;
+  color: var(--secondary);
+}
+p{
+  font-size: 20px;
+}
+h2{
+  font-size: 24px;
+}
+a{
+  text-decoration: none;
+}
+/* Navbar Styles */
+.navbar{
+  width: 100%;
+  margin: 0 auto;
+  height: 75px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 2px 4px var(--secondary);
+}
+.navbar h1{
+  font-size: 35px;
+  border-bottom: 3px solid var(--primary);
+}
+.navbar a{
+  margin: 0px 0px 0px 15px;
+  font-size: 30px
+}
+.navbar a.active{
+  border-bottom: 3px solid var(--primary);
+}
+/* Page content */
+ main{
+  padding: 20px;
+  margin: 10px auto;
+} 
+/* Home layout */
+.home-layout > h2:first-child{
+font-size: 24px;
+}
+.home-layout > p:first-of-type{
+font-size: 20px;
+}
+.home-layout nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around ;
+  gap: 15px;
+  margin: 30px 0;
+}
+.home-layout nav a{
+  padding: 10px;
+  border: 2px solid var(--secondary);
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.home-layout nav a:hover{
+  border-color: var(--primary);
+}
+.home-layout nav a.active, .home-layout nav a.active .icon {
+  background: var(--primary);
+}
+.home-layout nav .icon{
+  margin-left: 10px;
+}
+.home a.links{
+  padding: 6px;
+  cursor: pointer;
+  border: 2px solid var(--secondary);
+  border-radius: 8px;
+}
+.home a.links:hover{
+  border: 2px solid var(--primary);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Form sign in Styling */
+.sign-in form {
+  margin-top: auto;
+  background-color: var(--third);
+}
+.sign-in form input{
+  display: block;
+}
+.no-border input {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid var(--secondary);
+  width: 300px;
+  color: var(--secondary);
+}
+.sign-in form button{
+  width: 300px;
+  height: 32px;
+  font-size: 18px;
+  border: 1px solid var(--secondary);
+  cursor: pointer;
+  justify-self: center;
+}
+.no-border{
+  display: flex;
+  align-items: center;
+  width: 340px;
+  border-radius: 4px;
+  border: 1px solid var(--secondary);
+}
+.no-border:focus-within{
+  border: 1px solid var(--primary)
+}
+.no-border input{
+  border: none !important;
+}
+.no-border input:focus-visible{
+ outline: none !important
+}
+.sign-container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 40px;
+  padding: 0px 40px;
+}
+.text-container{
+  width: 50%;
+}
+.text-container h2{
+  font-size: 35px;
+}
+.text-container p{
+  font-size: 30px;
+}
+.forget-pass{
+  background-color: var(--third);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.forget-pass a{
+  background-color: var(--third);
+  color: var(--secondary);
+  font-size: 18px;
+}
+.sign-in .reg{
+  width: 330px;
+  border: 1px solid var(--secondary);
+  text-align: center;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.sign-in .reg a{
+  display: inline-block;
+  font-size: 20px;
+  width: 100%;
+  height: 25px;
+}
+.switch{
+  background-color: var(--third);
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid var(--secondary);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  width: fit-content;
+}
+
+/* REGISTOR Stying*/
+.registor form {
+  margin-top: auto;
+  background-color: var(--third);
+  width: fit-content;
+}
+.registor form input{
+  display: inline-block;
+}
+.registor form button{
+  height: 30px;
+  width: 342px;
+  justify-self: center;
+  font-size: 18px;
+  border: 1px solid var(--secondary);
+  cursor: pointer;
+}
+.names{
+  display: flex;
+  gap: 15px;
+  background-color:var(--third);
+  margin-bottom: 25px;
+  width: fit-content;
+}
+.names input{
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid var(--secondary);
+  width: 150px;
+  color: var(--secondary);
+}
+.names input:focus-visible{
+  outline: none;
+  border: 1px solid var(--primary)
+}
+.data{
+  background-color: var(--third);
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: fit-content;
+}
+.data input{
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid var(--secondary);
+  width: 300px;
+  color: var(--secondary);
+}
+.data input:focus-visible{
+  outline: none;
+  border: 1px solid var(--primary)
+}
+.combine{
+  border-radius: 4px;
+  width: 313px;
+  border: 1px solid var(--secondary);
+  display: flex;
+  align-items: center;
+}
+.combine input{
+  width: 250px;
+  border: none
+}
+.combine input:focus-visible{
+  outline: none;
+  border: none;
+}
+.combine:focus-within{
+  border: 1px solid var(--primary);
+}
+.dateOfBirth{
+  background-color: var(--third);
+  display: flex;
+  gap: 20px;
+  width: fit-content;
+}
+.dateOfBirth span{
+  background-color: var(--third);
+}
+.dateOfBirth select:focus-visible{
+  outline: none;
+}
+.registor .back{
+  background-color: var(--third);
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.registor .back a{
+  background-color: var(--third);
+}
+.showError{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--third);
+  margin-bottom: 15px;
+  height: auto;
+}
+.showError .error{
+  background-color: var(--third);
+  color: red;
+  width: 100%;
+  height: auto;
+}
+.error{
+  color: red;
+}
+select option[disabled] {
+  color: gray; /* Adjust color as desired */
+}
+.show-Error{
+  background-color: var(--third);
+  margin-bottom: 10px;
+  height: auto;
+}
+.show-Error .error{
+  background-color: var(--third);
+  height: 20px;
+}
+.sign-in .button{
+  display: flex;
+  justify-content: center;
+  background-color: var(--third);
+}
+.registor .position{
+  background-color: var(--third);
+  margin-bottom: 15px;
+}
+.registor .position label{
+  background-color: var(--third);
+  margin-right: 10px;
+}
+.registor .position select{
+  border: 1px solid var(--secondary)
+}
+.registor .position select:focus-visible{
+  outline: none;
+}
+/* Create todo Styling*/
+.create-textContainer{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.create-textContainer p{
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.create-container{
+  display: flex;
+  justify-content: center;
+}
+.create-formContainer{
+  padding: 10px;
+  width: fit-content;
+}
+.create-formContainer label{
+ font-size: 25px;
+ cursor: pointer;
+ width: fit-content;
+}
+.create-inputWrap{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+  width: fit-content;
+}
+.create-inputWrap input{
+  padding: 10px;
+  width: 400px;
+  height: 25px;
+  border: 1px solid var(--secondary);
+  border-radius: 8px;
+}
+.create-inputWrap input:hover{
+  border-color: var(--third);
+}
+.create-inputWrap textarea{
+  padding: 10px;
+  width: 400px;
+  height: 70px;
+  border-radius: 8px;
+  border: 1px solid var(--secondary)
+}
+.create-inputWrap textarea:hover{
+  border-color: var(--third);
+}
+.create-radioContainer{
+  display: flex;
+  direction: row;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+.create-radioContainer label{
+  cursor: default;
+}
+.create-radioContainer .custom-radio{
+  appearance: none;
+  margin-right: 4px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid var(--secondary);
+  cursor: pointer;
+}
+.custom-radio:checked {
+  /* Styles when checked */
+  background-color: var(--third);
+}
+.custom-radio:hover {
+  background: linear-gradient(180deg, #deb887, rgba(189,132,128,1));
+}
+.create-formContainer .assign{
+  margin-bottom: 15px;
+  display: flex;
+  gap:10px;
+}
+.create-formContainer .assign label{
+  cursor: default;
+  margin-bottom: 10px;
+}
+.create-formContainer .assign select{
+  cursor: pointer;
+  width: 150px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: var(--third);
+}
+.create-formContainer .assign select:focus{
+  outline: none;
+  border: 1px solid var(--primary);
+}
+.create-formContainer .assign select option:hover{
+  background-color: var(--third) !important;
+}
+.create-formContainer .assign select option:checked{
+  background-color: var(--third);
+}
+.create-formContainer .datePicker{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  align-content: stretch;
+}
+.create-formContainer .datePicker input{
+  height: 23px;
+  text-align: center;
+  width: 100px;
+  border-radius: 10px;
+  border:1px solid var(--secondary);
+
+}
+.react-datepicker__header {
+  background-color: var(--third) !important;
+}
+.react-datepicker__navigation-icon::before {
+  border-color: var(--secondary) !important;
+}
+.react-datepicker__day--keyboard-selected{
+  background-color: var(--third) !important;
+}
+.react-datepicker__day--selected{
+  background-color: var(--third) !important;
+}
+.css-p04rf8-control{
+  box-shadow: none !important;
+}
+.create-formContainer .submition button{
+  display: flex;
+  width: 250px;
+  margin: 25px auto;
+  justify-content: center;
+  height: 35px;
+  font-size: 25px;
+  border-radius: 8px;
+  border: 1px solid var(--secondary);
+  cursor: pointer;
+  background-color: var(--third);
+}
+
+.create-formContainer .submition button:hover {
+  background: linear-gradient(180deg, #deb887, rgba(189,132,128,1));
+}
+.Toastify__toast-theme--light {
+  background: var(--third) !important;
+}
+.Toastify__progress-bar--success {
+  background: var(--primary) !important;
+}
+.Toastify__toast-body svg{
+  fill: var(--primary) !important;
+}
+.toast-button {
+  display: flex;
+  margin: 0 auto;
+  border-radius: 8px;
+  width: 200px;
+  justify-content: center;
+}
+.toast-button:hover{
+  background: linear-gradient(180deg, #deb887, rgba(189,132,128,1));
+}
+/* Task Layout and pages Styling */
+.task-container .task-task{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--primary);
+  background-color: var(--primary);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+.task-task .task-item{
+  border: 1px solid var(--primary);
+  margin-bottom: 10px;
+  padding: 8px;
+}
+.task-task .task-item:hover{
+  cursor: pointer;
+  background: var(--third)
+}
+.task-task .task-item h3{
+  text-transform: capitalize;
+}
+.task-item:hover .hoverEffect{
+  background: var(--third)
+}
+.task-item button{
+  width: 80px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 1px solid var(--secondary);
+  margin-left: auto;
+  background-color: var(--primary);
+}
+.task-item button:hover{
+  background: linear-gradient(180deg, #deb887, rgba(189,132,128,1));
+}
+.task-item .wrapButton{
+  display: flex;
+}
+.task-task .task-item:last-child {
+  margin-bottom: 0;
+}
+.task-task .missed-due{
+  color: red;
+}
+.task-task .empty-task p{
+  background: var(--third) !important;
+  text-align: center;
+}
+.task-task .empty-task {
+  padding: 10px;
+  background-color: var(--third);
+}
+/* Task styling */
+.taskDetails{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 10px solid var(--primary);
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 8px;
+}
+/* Home tasks styling */
+.createdTaks{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--primary);
+  background-color: var(--primary);
+  width: 80%;
+  margin: 0 auto;
+}
+.mb-5{
+  margin-bottom: 15px;
+}
+.linked{
+  background-color: var(--primary);
+  border: 1px solid var(--secondary);
+  padding: 3px;
+  border-radius: 8px;
+}
+.empty-created{
+  padding: 10px;
+  background-color: var(--third);
+  text-align: center;
+}
+.empty-created p{
+  background-color: var(--third);
+}
+.linked:hover{
+  background: linear-gradient(180deg, #deb887, rgba(189,132,128,1));
+}
+.taskDetails button{
+  width: 80px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 1px solid var(--secondary);
+  margin: 5px auto;
+  background-color: var(--primary);
+}
+.taskDetails button:hover{
+  background: linear-gradient(180deg, #deb887, rgba(189,132,128,1));
 }
